@@ -45,8 +45,8 @@ function draw() {
 
   push();
   translate(x, y);
-  rotate(angle);
-  scale(-scaleFactor,-scaleFactor );
+  // rotate(angle);
+  // scale(-scaleFactor,-scaleFactor );
 
   image(img, 0, 0);
   pop();
