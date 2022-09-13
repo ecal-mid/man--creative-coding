@@ -3,7 +3,11 @@
 ## Download
 - Boilerplate p5.js [`/empty-example`](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ecal-mid/man-creative-coding-2022/blob/main/empty-example)
 - Lundi [`/bouncing-dvd`](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ecal-mid/man-creative-coding-2022/blob/main/bouncing-dvd)
-- Mardi [`/yin-yang`](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ecal-mid/man-creative-coding-2022/blob/main/yin-yang)
+- Mardi
+  1. [`/yin-yang`](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ecal-mid/man-creative-coding-2022/blob/main/yin-yang)
+  2. [`/map`](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ecal-mid/man-creative-coding-2022/blob/main/map)
+  3. [`/lerp`](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ecal-mid/man-creative-coding-2022/blob/main/lerp)
+  4. [`/for-loop`](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ecal-mid/man-creative-coding-2022/blob/main/for-loop)
 - Mercredi -
 - Jeudi -
 - Vendredi -
