@@ -12,8 +12,6 @@ function setup() {
   windowResized();
   noStroke();
   angleMode(DEGREES);
-
-
 }
 
 function draw() {
