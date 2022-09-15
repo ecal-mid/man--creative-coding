@@ -9,5 +9,5 @@
   3. [`/lerp`](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ecal-mid/man-creative-coding-2022/blob/main/lerp)
   4. [`/for-loop`](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ecal-mid/man-creative-coding-2022/blob/main/for-loop)
 - Mercredi - [`/my-first-website`](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ecal-mid/man-creative-coding-2022/blob/main/my-first-website)
-- Jeudi -
+- Jeudi - [`/array`](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ecal-mid/man-creative-coding-2022/blob/main/array)
 - Vendredi -
