@@ -2,8 +2,8 @@
 
 let diameter = 20;
 let gap = 10;
-let columns = 50;
-let rows = 30;
+let columns = 4;
+let rows = 2;
 let margin = 10;
 
 let colorRandom = []
@@ -87,7 +87,6 @@ function draw() {
 
       index++;
     }
-
   }
 }
 
@@ -102,11 +101,21 @@ function mousePressed() {
   let offset = random(10, 10)
 
   //! complete this line
-  let randomIndex = 0
+  // console.log();
+  let randomIndex = floor(random(props.length))
 
   props[randomIndex] = {
     color: colorRandom,
     diameter: diameter,
     offset: offset,
+  }
+
+  for (let i = 0; i < props.length; i++) {
+    console.log(props[i]);
+  }
+  
+  // only works with arrays
+  for (let obj of props) {
+    console.log(obj);
   }
 }
