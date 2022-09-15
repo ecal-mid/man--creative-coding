@@ -1,36 +1,40 @@
-function setRandomPosition(anyBall) {
-    anyBall.x = random(width);
-    anyBall.y = random(height);
-}
-
 function updatePosition(anyBall) {
-    anyBall.x += anyBall.speed * anyBall.wayX;
-    anyBall.y += anyBall.speed * anyBall.wayY;
+
+    anyBall.speedX = map(anyBall.x, 0, width, 1, 5)
+    anyBall.speedY = map(anyBall.y, 0, height, 1, 5)
+
+    anyBall.x += anyBall.speedX * anyBall.wayX;
+    anyBall.y += anyBall.speedY * anyBall.wayY;
 }
 
 function drawBall(anyBall) {
     push()
     translate(anyBall.x, anyBall.y);
-    ellipse(0, 0, anyBall.diameter)
+    ellipse(0, 0, map(anyBall.speedX, 1, 5, 1, 10))
     pop();
 }
 
 function updateCollision(anyBall) {
 
-    let reachedRight1 = anyBall.x > width - anyBall.diameter / 2;
-    let reachedLeft1 = anyBall.x < anyBall.diameter / 2;
-    let reachedTop1 = anyBall.y < anyBall.diameter / 2;
-    let reachedBottom1 = anyBall.y > height - anyBall.diameter / 2;
+    const reachedRight = anyBall.x > width - anyBall.diameter / 2;
+    const reachedLeft = anyBall.x < anyBall.diameter / 2;
+    const reachedTop = anyBall.y < anyBall.diameter / 2;
+    const reachedBottom = anyBall.y > height - anyBall.diameter / 2;
 
-    if (reachedRight1) {
+    if (reachedRight) {
         anyBall.wayX = -1;
-    } else if (reachedLeft1) {
+    } else if (reachedLeft) {
         anyBall.wayX = 1;
     }
 
-    if (reachedTop1) {
+    if (reachedTop) {
         anyBall.wayY = 1;
-    } else if (reachedBottom1) {
+    } else if (reachedBottom) {
         anyBall.wayY = -1;
     }
+}
+
+// Randomly returns -1 or 1
+function randomSign() {
+    return random() < 0.5 ? -1 : 1
 }
