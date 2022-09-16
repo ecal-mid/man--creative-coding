@@ -10,7 +10,7 @@ function updatePosition(anyBall) {
 function drawBall(anyBall) {
     push()
     translate(anyBall.x, anyBall.y);
-    ellipse(0, 0, map(anyBall.speedX, 1, 5, 1, 10))
+    ellipse(0, 0, map(anyBall.speedX, 1, 5, 10, 50))
     pop();
 }
 
