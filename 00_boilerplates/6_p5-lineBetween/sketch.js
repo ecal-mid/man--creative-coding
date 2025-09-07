@@ -9,7 +9,7 @@ const ball = {
 
 const balls = [];
 
-const backgroundColor = "rgba(250,250,250,0.005)";
+const backgroundColor = "rgba(250,250,250)";
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
@@ -67,7 +67,7 @@ function addBall() {
 }
 
 function draw() {
-	// background(backgroundColor);
+	background(backgroundColor);
 	noStroke();
 
 	for (let i = 0; i < balls.length; i++) {

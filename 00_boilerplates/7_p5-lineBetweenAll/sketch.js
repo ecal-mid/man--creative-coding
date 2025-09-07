@@ -1,14 +1,14 @@
 const grid = {
-	numColumns: 2,
-	numRows: 3,
+	numColumns: 20,
+	numRows: 2,
 };
 const ball = {
 	diameter: 20,
-	color: "black",
+	color: "red",
 };
 
 const balls = [];
-const backgroundColor = "rgba(250,250,250,0.05)";
+const backgroundColor = "rgba(250,250,250,)";
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
@@ -72,7 +72,7 @@ function draw() {
 
 	for (let i = 0; i < balls.length; i++) {
 		balls[i].update();
-		// balls[i].draw();
+		balls[i].draw();
 	}
 
 	for (let i = 0; i < balls.length; i++) {
@@ -82,7 +82,7 @@ function draw() {
 			}
 			const pos1 = balls[i].getPosition();
 			const pos2 = balls[j].getPosition();
-			strokeWeight(ball.diameter);
+			strokeWeight(1);
 			// colorMode(HSL);
 			// // stroke color based on framecount
 			// stroke(frameCount % 360, 100, 50);
