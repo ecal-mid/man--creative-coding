@@ -1,3 +1,8 @@
 *.DS_Store
 1_p5-basics-start/
-
+2_p5-basics-grid/
+3_p5-basics-animation/
+4_p5-basics-advanced_animation/
+5_p5-basics-interactions/
+6_p5-lineBetween/
+7_p5-lineBetweenAll/
