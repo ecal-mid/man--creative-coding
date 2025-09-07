@@ -1,9 +1,9 @@
-*.DS_Store
-0_p5-basics-start/
-1_p5-basics-line/
-2_p5-basics-grid/
-3_p5-basics-animation/
-4_p5-basics-advanced_animation/
-5_p5-basics-interactions/
-6_p5-lineBetween/
-7_p5-lineBetweenAll/
+ *.DS_Store
+# 0_p5-basics-start/
+# 1_p5-basics-line/
+# 2_p5-basics-grid/
+# 3_p5-basics-animation/
+# 4_p5-basics-advanced_animation/
+# 5_p5-basics-interactions/
+# 6_p5-lineBetween/
+# 7_p5-lineBetweenAll/
